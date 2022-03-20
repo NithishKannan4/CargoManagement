@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ABC Cargos</title>
+    <link rel="icon" href="images/logo_white.jpeg" type="image/jpeg">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css2?family=Twinkle+Star&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+<header>
+    <nav id="header-nav" class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <div class="navbar-brand">
+                    <a href="index.html"><h1>ABC Cargos</h1></a>
+                    <div id="navbar-subtitle">Your one stop solution for Cargos</div>
+                </div>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar">Our Services</span>
+                    <span class="icon-bar">About Us</span>
+                    <span class="icon-bar">Careers</span>
+                    <span class="icon-bar">Track Shipment</span>
+                </button>
+            </div>
+
+            <div id="collapsable-nav" class="collapse navbar-collapse">
+                <ul id="nav-list" class="nav navbar-nav navbar-right">
+                    <li><a href="snippets/services.html"><span class="material-icons header-icons"></span><br class="hidden-xs">Our Services</a></li>
+                    <li><a href="snippets/aboutus.html"><span class="material-icons header-icons">info</span><br class="hidden-xs">About Us</a></li>
+                    <li><a href="snippets/career.html"><span class="material-icons header-icons"></span><br class="hidden-xs">Careers</a></li>
+                    <li><a href="#"><span class="material-icons header-icons">track_changes</span><br class="hidden-xs">Track Shipment</a></li>
+                    <li><a href="snippets/login.html"><span class="material-icons header-icons">login</span><br class="hidden-xs">Login</a></li>
+                    <li id="phone" class="hidden-xs"><a href="tel:91-9629245798"><span class="material-icons header-icons" id="phone-icon">phone</span>9629245798</a>
+                        <div style="color: #000000;font-size: 1.8em">24*7</div></li>
+                </ul><!-- #nav-list -->
+            </div><!-- .collapse .navbar-collapse -->
+        </div><!-- .container -->
+    </nav><!-- #header-nav -->
+</header>
+
+<div id="call-btn" class="visible-xs">
+    <a class="btn" href="tel:91-9629245798">
+        <span class="material-icons">phone</span>
+        9629245798
+    </a>
+</div>
+<div id="xs-deliver" class="text-center visible-xs" style="color: #000000;font-size: 1.8em">24*7</div>
+
+<div id="main-content" class="container">
+    <div class="jumbotron">
+<!--        <img src="images/jumbotron_768.jpg" alt="" class="img-responsive visible-xs">-->
+        <div class="tracking">Enter Consignment number<br>
+        <form action="index.html">
+            <label><input type="text"></label><br>
+            <button class="track_btn">Track</button>
+        </form>
+        </div>
+    </div>
+
+    <div id="home-tiles" class="row">
+        <div class="col-md-4 col-sm-12 col-xs-12">
+            <a href="https://goo.gl/maps/MSCHyAWnXnUcSFbJ9" target="_blank">
+                <div id="map-tile">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125323.4738855648!2d76.89719435430861!3d11.011701573390447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba859af2f971cb5%3A0x2fc1c81e183ed282!2sCoimbatore%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1639805267288!5m2!1sen!2sin" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    <span>map</span>
+                </div>
+            </a>
+        </div>
+    </div><!-- End of #home-tiles -->
+</div><!-- End of #main-content -->
+
+<footer class="panel-footer">
+    <div class="container">
+        <div class="row">
+            <section id="company" class="col-sm-4">
+                <span>Comapny</span><br><hr>
+                <span style="float: left">Track Shipment</span>
+                <span style="float: right">Our Services</span><br>
+                <span style="float: left">Contact Us</span>
+                <span style="float: right">Contact Us</span>
+                <hr class="visible-xs">
+            </section>
+            <section id="contact" class="col-sm-4">
+                <span>Contact Us</span><br><hr>
+                <p>+91 9629245798</p>
+                <a href="mailto:support@abccargoservices.com" style="text-decoration: none">support@abccargoservices.com</a>
+                <hr class="visible-xs">
+            </section>
+            <section id="contacthrs" class="col-sm-4">
+                <span>Working Hours</span><br><hr>
+                <p>Monday to Friday: 09:00 AM To 08:00 PM<br>
+                Saturday: 09:00 AM To 07:00 PM<br>
+                Sunday: 10:00 AM To 07:00 PM<br>
+            </section>
+        </div>
+        <div class="text-center">&copy; Copyright ABC Cargos Limited</div>
+    </div>
+</footer>
+
+<!-- jQuery (Bootstrap JS plugins depend on it) -->
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
